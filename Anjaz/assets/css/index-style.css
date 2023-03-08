@@ -1,2 +1,43 @@
 body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+    background-color:transparent;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+li{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    float:left;
+}
+li a{
+    text-decoration: none;
+    display: inline;
+    padding: 14px 77px;
+    overflow: hidden;
+}
+li a:hover{
+    background-color: #DDDDDD;
+}
+.banner{
+    text-align: center;
+    
+}
+h2{
+    font-size: 30px;
+}
+.intro{
+    font-size: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    word-wrap: break-word;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
 }
