@@ -16,34 +16,39 @@ ul{
 }
 li{
     display: flex;
-    justify-content: space-between;
     flex-flow: row wrap;
+    justify-content: flex-start;
     float: left;
 }
 li a{
-    color: #ccda2b;
+    color: #3bcbc6;
     text-decoration: none;
     text-align: center;
-    margin-left: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 li a:hover{
     background-color: transparent;
-    opacity: 70%;
+    opacity: 60%;
     
 }
 .navbar{
+    height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
     padding-top: 0%;
     padding-bottom: 0%;
 }
 .topnav{
     background: url(../image/backgoundmain.jpg);
-    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
     padding-bottom: 50px;
 }
 .btn-oder{
     border-style: goldenrod;
-    color: #DDDDDD;
+    color: #000000;
 }
 .banner{
     text-align: center;
